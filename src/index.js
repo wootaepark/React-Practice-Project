@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TextInput from './component/ui/TextInput';
+import Button from './component/ui/Button';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+function hello(){
+  console.log("hello")
+}
 root.render(
   <React.StrictMode>
-    <App />
+    <App></App>
   </React.StrictMode>
 );
 
